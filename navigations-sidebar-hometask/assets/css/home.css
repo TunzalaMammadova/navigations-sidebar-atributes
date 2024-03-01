@@ -1,0 +1,41 @@
+.sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100vh;
+    position: relative;
+    transition: all 0.5s;
+    border-left: 3px solid red;
+    border-bottom: 3px solid red;
+    border-top: 3px solid red;
+    float: right;
+}
+
+.sidebar ul {
+    list-style: none;
+    line-height: 70px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.sidebar ul li a:hover {
+    color: red;
+}
+
+.icons {
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    margin-right: 270px;
+}
+
+.close-sidebar {
+    transform: translate(272px,0px);
+}
